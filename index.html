@@ -2,34 +2,32 @@
     <head>
         <title>Square function</title>
     </head>
-<body>
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
+<style>
+  p{
+    text-align: center;
+    background-color: rgb(3, 250, 155);
+  
+}
+</style>
 
 <script>
 
-var squareResult=prompt("Please enter a number for calculating Square")
+var x = 10;
+    
+    function calculateSquare() {
+    
+      console.log("Value of x is : " + x);
+      
+      document.body.innerHTML += "<p>The square of " + x + " = " + x * x + "</p>";
+    }
+  </script>
+  </html>
+  <body>
+    <center><button   onclick="calculateSquare();"  >Click me to display the square of the x variable</button></center>
+    <p >The square of 10 = 100</p>
 
-
-</script>
-
-
-</body>
+  </body>
+  
 </html>
 
 
